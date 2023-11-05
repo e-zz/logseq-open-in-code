@@ -115,6 +115,13 @@ logseq
     enumPicker: 'select'
   },
   {
+    key: 'key_open_line',
+    type: 'string',
+    title: 'Shortcut: open current line',
+    description: 'Shortcut to open the current line in VS Code (default `ctrl+shift+j`)',
+    default: 'mod+shift+j',
+  },
+  {
     key: 'key_open_page',
     type: 'string',
     title: 'Shortcut: open current page',
